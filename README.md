@@ -8,6 +8,9 @@ Kik Toolset is a simple set of tools that allows a programmer to get Kik User in
 
 This was written by Netkas (Daniel Blood) for Asscake.net where users can learn valuable skills about security research and programming.
 
+# Skid alert
+I'm aware, various skids are using this tool and thinking it's some sort of exploit, it's not. stop being dumb and learn to read the source.
+
 # In Development
 We are planning to add more tools, and scripts related to Kik when possible, Though some of these scripts are simple, they can be used for various things such as Websites that display Kik Accounts, And request a updated Profile Picture of any Kik Account directly from Kik themselves
 
@@ -15,7 +18,7 @@ We are planning to add more tools, and scripts related to Kik when possible, Tho
 
 The python scripts require Python 3.+ to run properly, Though this can be Python2 Friendly easily.
 
-EmailResolver.py
+`EmailResolver.py`
 
 ```
 usage: EmailResolver.py [-h] [-u USERNAME] [-e ENDPOINT]
@@ -38,7 +41,7 @@ optional arguments:
 ```
 
 
-KikLookup.py
+`KikLookup.py`
 
 ```
 usage: KikLookup.py [-h] [-u USERNAME] [-e ENDPOINT]
@@ -62,7 +65,7 @@ optional arguments:
  [+] Display Pic Last Modified: 1505525272625
  [+] Display Pic URL: http://profilepics.kik.com/exampleid/orig.jpg
 ```
-KikHer.php
+`KikHer.php`
 ```php
 <?PHP
 	require("KikHer.php"); /* Get the class for KikHer */
